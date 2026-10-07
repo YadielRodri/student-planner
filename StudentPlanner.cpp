@@ -175,7 +175,7 @@ int main()
                     status = 'N';
                     notifier = 0;
 
-                    cout << "\nYou have successfully deleted the assignment.`n";
+                    cout << "\nYou have successfully deleted the assignment.\n";
                 }
                 else if (del == 'N' || del == 'n')
                 {
