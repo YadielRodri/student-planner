@@ -33,6 +33,29 @@ Open the project in Visual Studio or another C++ compiler, build the project, an
 
 Choose an option from the menu and follow the prompts.
 
+## Example output
+
+Example interaction (selected screens; the menu clears between actions on Windows):
+
+```text
+Choose an option: 1
+Course name: CSC-120
+Assignment title: Lab 1
+Due date: 11/05/2026
+Assignment added successfully.
+
+Choose an option: 2
+========================================
+           ALL ASSIGNMENTS
+========================================
+Course: CSC-120
+Assignment: Lab 1
+Due date: 11/05/2026
+Completed?: N
+```
+
+This version stores only one assignment at a time and does not yet save data to a file.
+
 ## Planned upgrades
 
 - Store multiple assignments
